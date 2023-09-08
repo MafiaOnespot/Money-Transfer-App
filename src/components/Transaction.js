@@ -28,7 +28,7 @@ const Transaction = props => {
         <div className="transaction__right__date">{date}</div>
         <div className="transaction__right__balance">
           {" "}
-          Balance: ₹{newBalance}
+          Balance: ₹ {newBalance}
         </div>
       </div>
     </div>
