@@ -166,7 +166,7 @@ class TransferPage extends React.Component {
               <FaAngleDoubleUp />
             </button>
             <h1 className="balance">
-              Balance: <span className="balance__number">€ {balance} </span>
+              Balance: <span className="balance__number">₹ {balance} </span>
             </h1>
           </div>
 
