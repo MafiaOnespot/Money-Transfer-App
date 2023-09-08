@@ -159,7 +159,7 @@ exports[`renders correctly 1`] = `
         className="transaction__right__balance"
       >
          
-        Balance: € 
+        Balance: ₹
         1000
       </div>
     </div>
