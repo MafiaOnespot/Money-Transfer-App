@@ -19,7 +19,7 @@ const Transaction = props => {
     <div className="transaction">
       <div className="transaction__left__left">
         <div className="transaction__left__message">
-          {isModeSend ? "Sent" : executed ? "Received" : "Requested"} €{amount}{" "}
+          {isModeSend ? "Sent" : executed ? "Received" : "Requested"} ₹{amount}{" "}
           {isModeSend ? "to" : "from"} {selectedName}
         </div>
         {note && <div className="transaction__left__note">{note}</div>}
