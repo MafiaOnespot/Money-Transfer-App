@@ -44,7 +44,7 @@ const ConfirmationModal = props => {
         <Fragment>
           <SuccessAnimation />
           <h2 className="success">
-            You {isModeSend ? "sent" : "requested"} €{amount}{" "}
+            You {isModeSend ? "sent" : "requested"} ₹{amount}{" "}
             {isModeSend ? "to" : "from"} {selectedName}!
           </h2>
           <button className="button" onClick={closeModal}>
